@@ -8,7 +8,7 @@ public class Test22{
                 System.out.print(" ");
             }
             for(int k = 0; k <= i; k++){
-                if (i == 0 || i == n - 1 || k == 0 || k == i){
+                if (i == n - 1 || k == 0 || k == i){
                     System.out.print("* ");
                 }
                 else{
