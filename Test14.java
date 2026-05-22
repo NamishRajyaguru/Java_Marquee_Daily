@@ -1,4 +1,4 @@
-//Half start diamond
+//Half star diamond
 public class Test14{
     public static void main(String[] args){
         int n = 5;
