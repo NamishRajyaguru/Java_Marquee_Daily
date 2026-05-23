@@ -13,7 +13,7 @@ public class Test24 {
             }
 
             // top step
-            System.out.println("***");
+            System.out.println("* *");
 
             // vertical part
             for (int j = 0; j < 2; j++) {
