@@ -1,4 +1,4 @@
-public class Test2 {
+public class Test01 {
     static int a = 5;
     public void stat(){
         a++;
@@ -14,3 +14,4 @@ public class Test2 {
         stat2();
     }
 }
+

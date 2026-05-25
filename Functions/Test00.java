@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Test28{
+public class Test00{
 
     static void table(int n){
         for(int i = 1; i <= 10; i++){
@@ -15,3 +15,4 @@ public class Test28{
         table(n);
     }
 }
+

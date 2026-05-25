@@ -1,4 +1,4 @@
-public class Test3{
+public class Test02{
     public static void main(String[] args) {
         // int a = 1;
         // int b = a++ + ++a + a++ + a;
@@ -28,3 +28,4 @@ public class Test3{
         System.out.println(res > c ? res : c);
     }
 }
+

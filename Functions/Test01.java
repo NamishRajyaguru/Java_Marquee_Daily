@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Test29{
+public class Test01{
     
     static boolean vowel(char c){
         char[] array = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
@@ -20,3 +20,4 @@ public class Test29{
         System.out.println(vowel(c));
     }
 }
+

@@ -1,5 +1,5 @@
 //Reverse Center Pyramid
-public class Test20{
+public class Test09{
     public static void main(String[] args){
         int n = 5;
         for(int i = n; i >= 0; i--){
@@ -13,3 +13,4 @@ public class Test20{
         }
     }
 }
+

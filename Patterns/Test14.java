@@ -1,12 +1,30 @@
-//Inverted Right angle traingle
-public class Test14{
-    public static void main(String[] args){
-        int n = 5;
-        for(int i = n; i > 0; i--){
-            for(int j = i; j > 0; j--){
-                System.out.print("* ");
+// Staircase Pattern
+
+public class Test14 {
+    public static void main(String[] args) {
+
+        int n = 3;
+
+        for (int i = 0; i < n; i++) {
+
+            // spaces
+            for (int s = 0; s < i * 2; s++) {
+                System.out.print(" ");
             }
-            System.out.println("");
+
+            // top step
+            System.out.println("* *");
+
+            // vertical part
+            for (int j = 0; j < 2; j++) {
+
+                for (int s = 0; s < i * 2 + 2; s++) {
+                    System.out.print(" ");
+                }
+
+                System.out.println("*");
+            }
         }
     }
 }
+

@@ -1,6 +1,6 @@
 //Euclidean Algorithm of GCD
 
-public class Test10{
+public class Test04{
     public static void main(String[] args){
         int max = 60;
         int min = 18;
@@ -12,3 +12,4 @@ public class Test10{
         System.out.println(max);
     }
 }
+

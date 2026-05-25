@@ -1,6 +1,6 @@
 //Count the frequency of the digit
 
-public class Test31 {
+public class Test03 {
     public static int countFrequency(int n, int dig) {
         int count = 0;
         n = Math.abs(n);
@@ -26,4 +26,5 @@ public class Test31 {
         System.out.println("Frequency of " + digitToCount + " in " + number + " is: " + countFrequency(number, digitToCount));
     }
 }
+
 

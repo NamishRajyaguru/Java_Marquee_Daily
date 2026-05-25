@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Test33 {
+public class Test05 {
     public static void playGame() {
         int targetNumber = (int) (Math.random() * 100) + 1;
         Scanner scanner = new Scanner(System.in);
@@ -34,4 +34,5 @@ public class Test33 {
         playGame();
     }
 }
+
 

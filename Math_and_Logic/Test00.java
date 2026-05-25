@@ -1,21 +1,16 @@
-//Armstrong num
+//Sum of square of digits
 import java.util.*;
-
-public class Test7{
+public class Test00{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int res = 0;
         while (n > 0){
             int rem = n % 10;
-            res = res + (rem * rem * rem);
+            res = res + (rem * rem);
             n = n / 10;
         }
-        if(res == n){
-            System.out.println("Armstrong");
-        }
-        else{
-            System.out.println("Not Armstrong");
-        }
+        System.out.println(res);
     }
 }
+

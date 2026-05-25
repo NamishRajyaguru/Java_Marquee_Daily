@@ -1,12 +1,22 @@
-// PAttern of matrix
+// Hollow Pyramid
 
 public class Test12{
     public static void main(String[] args){
-        for(int i = 0; i < 3; i++){
-            for(int j = 0; j < 3; j++){
-                System.out.print(i + "" + j + "  ");
+        int n = 5;
+        for(int i = 0; i < n; i++){
+            for(int j = n; j >= i; j--){
+                System.out.print(" ");
             }
-            System.out.println(" ");
+            for(int k = 0; k <= i; k++){
+                if (i == n - 1 || k == 0 || k == i){
+                    System.out.print("* ");
+                }
+                else{
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
         }
     }
 }
+

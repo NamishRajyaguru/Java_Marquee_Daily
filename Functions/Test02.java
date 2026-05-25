@@ -1,6 +1,6 @@
 //Check if a number is strong number or not
 
-public class Test30 {
+public class Test02 {
     // Using recursion for factorial as per Functions notes.txt
     public static int factorial(int n) {
         // Base case
@@ -29,4 +29,5 @@ public class Test30 {
         System.out.println("Is " + number + " a strong number? " + isStrong(number));
     }
 }
+
 

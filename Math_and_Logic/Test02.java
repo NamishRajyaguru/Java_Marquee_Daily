@@ -1,5 +1,5 @@
 // perfect square
-public class Test8{
+public class Test02{
     public static void main(String[] args){
         int i = 5;
         while (true){
@@ -12,3 +12,4 @@ public class Test8{
         }    
     }
 }
+

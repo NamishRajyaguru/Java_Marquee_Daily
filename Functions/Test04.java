@@ -1,6 +1,6 @@
 //Fibonacci series
 
-public class Test32 {
+public class Test04 {
     // Using recursion for Fibonacci as per Functions notes.txt
     public static int fibonacci(int n) {
         // Base case
@@ -24,4 +24,5 @@ public class Test32 {
         printFibonacciSeries(n);
     }
 }
+
 
