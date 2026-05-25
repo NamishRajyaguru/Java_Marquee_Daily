@@ -1,13 +1,13 @@
-//Inverse ABC pattern
-
+//Reverse Center Pyramid
 public class Test20{
     public static void main(String[] args){
         int n = 5;
-        for(int i = n - 1; i >= 0; i--){
-            char c = 'A';
-            for(int j = 0; j <= i; j++){
-                System.out.print(c);
-                c++;
+        for(int i = n; i >= 0; i--){
+            for(int j = n; j >= i; j--){
+                System.out.print(" ");
+            }
+            for(int k = 1; k <= 2 * i - 1; k++){
+                System.out.print("$");
             }
             System.out.println();
         }

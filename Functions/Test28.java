@@ -1,22 +1,17 @@
-// Function to check if character is vowel or not
+// Functions multiplication code
 
 import java.util.Scanner;
 
 public class Test28{
-    
-    static boolean vowel(char c){
-        char[] array = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
-        for(char vow : array){
-            if (vow == c){
-                return true;
-            }
-        } 
-        return false;
-    }
 
+    static void table(int n){
+        for(int i = 1; i <= 10; i++){
+            System.out.printf("%d * %d = %d\n", n, i, n * i);
+        }
+    }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        char c = sc.next().charAt(0);
-        System.out.println(vowel(c));
+        int n = sc.nextInt();
+        table(n);
     }
 }

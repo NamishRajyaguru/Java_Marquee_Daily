@@ -1,12 +1,12 @@
-//Inverted Right angle traingle
+// PAttern of matrix
+
 public class Test12{
     public static void main(String[] args){
-        int n = 5;
-        for(int i = n; i > 0; i--){
-            for(int j = i; j > 0; j--){
-                System.out.print("* ");
+        for(int i = 0; i < 3; i++){
+            for(int j = 0; j < 3; j++){
+                System.out.print(i + "" + j + "  ");
             }
-            System.out.println("");
+            System.out.println(" ");
         }
     }
 }

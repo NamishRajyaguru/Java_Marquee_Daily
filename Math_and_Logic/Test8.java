@@ -1,14 +1,14 @@
-//Euclidean Algorithm of GCD
-
+// perfect square
 public class Test8{
     public static void main(String[] args){
-        int max = 60;
-        int min = 18;
-        while(min != 0){
-            int rem = max % min;
-            max = min;
-            min = rem;
-        }
-        System.out.println(max);
+        int i = 5;
+        while (true){
+            int square = i * i;
+            i++;
+            if(square > 80){
+                break;
+            }
+            System.out.println(square);
+        }    
     }
 }

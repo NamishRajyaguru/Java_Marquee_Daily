@@ -1,29 +1,24 @@
-// Staircase Pattern
+// Reverse Hollow Pyramid
 
-public class Test24 {
-    public static void main(String[] args) {
-
-        int n = 3;
-
-        for (int i = 0; i < n; i++) {
-
-            // spaces
-            for (int s = 0; s < i * 2; s++) {
+public class Test24{
+    public static void main(String[] args){
+        int n = 5;
+        for(int i = n - 1; i >= 0; i--){
+            for(int j = n; j >= i; j--){
                 System.out.print(" ");
             }
-
-            // top step
-            System.out.println("* *");
-
-            // vertical part
-            for (int j = 0; j < 2; j++) {
-
-                for (int s = 0; s < i * 2 + 2; s++) {
-                    System.out.print(" ");
+            for(int k = 0; k <= i; k++){
+                if (i == 0 || i == n - 1){
+                    System.out.print("* ");
                 }
-
-                System.out.println("*");
+                else if ((k == 0 || k == i)){
+                    System.out.print("* ");
+                }
+                else{
+                    System.out.print("  ");
+                }
             }
+            System.out.println();
         }
     }
 }
