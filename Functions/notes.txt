@@ -369,3 +369,19 @@
 * Graph traversal
 * Divide and conquer algorithms
 * Backtracking problems
+
+---
+
+# Questions
+
+* What are Functions?
+* Why Functions?
+* Sequencial Flow of Functions?
+* Components of Functions?
+* Context of the Functions (scoping, 'this' keyword)?
+* Stack vs Heap Memory, Local Variable Table, How objects are stored?
+* Call by Value vs Call by Reference?
+* Types of Functions?
+* Recursive Functions and use case?
+* Difference between Parameters and Arguements?
+* Method Overloading vs Method Overriding?
