@@ -5,9 +5,7 @@ import java.util.Scanner;
 public class SecondLastDigitEvenOdd{
 
     public static boolean lastSecondEvenOrOdd(int n){
-        if(n < 10){
-            return false;
-        }
+        if(n < 10) return false;
         n /= 10;
         return (n % 10) % 2 == 0;
     }
