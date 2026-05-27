@@ -9,10 +9,8 @@ public class DecimalToHexa{
         String digits = "0123456789ABCDEF";
         String res = "";
         while (n > 0) {
-
             int rem = n % 16;
             n /= 16;
-
             res += digits.charAt(rem);
         }
         String rev = "";
