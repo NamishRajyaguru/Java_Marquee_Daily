@@ -16,7 +16,7 @@ public class DistanceBetweenTwoDuplicates{
         for(int i = 0; i < n; i++){
             for(int j = i; j < n; j++){
                 if(i != j && arr[i] == arr[j]){
-                    if(res == -1){
+                    if(res == 0){
                         res = j - i;
                     }
                     res = max(res, j - i);
