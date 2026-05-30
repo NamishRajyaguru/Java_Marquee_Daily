@@ -11,6 +11,7 @@ This workspace serves as a continuous learning environment for mastering Java. I
 - **Math and Logic**: Number manipulation, logic-based puzzles, and algorithmic thinking.
 - **Patterns**: Nested loops and complex geometric output challenges.
 - **Arrays**: Data structures, searching algorithms, and element manipulation.
+- **Complexity**: Time and space complexity analysis and algorithmic efficiency.
 
 ## Structure
 
