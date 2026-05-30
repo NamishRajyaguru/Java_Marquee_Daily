@@ -13,6 +13,7 @@ public class PerfectSquaresInRange{
                 break;
             }
         }
+        sc.close();
     }
 }
 

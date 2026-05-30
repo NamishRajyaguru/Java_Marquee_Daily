@@ -21,5 +21,6 @@ public class HexaToDecimal{
         Scanner sc = new Scanner(System.in);
         String hexa = sc.nextLine();
         System.out.println(hexaToDecimal(hexa));
+        sc.close();
     }
 }

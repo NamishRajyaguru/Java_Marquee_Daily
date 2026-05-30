@@ -26,5 +26,6 @@ public class SubtractionOfIndividualElementsOfTwoArray{
         }
 
         System.out.println(Arrays.toString(subtract(a, b, n)));
+        sc.close();
     }
 }

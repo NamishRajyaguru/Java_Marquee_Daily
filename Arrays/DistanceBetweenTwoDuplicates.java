@@ -34,5 +34,6 @@ public class DistanceBetweenTwoDuplicates{
             arr[i] = sc.nextInt();
         }
         System.out.println(findDistance(arr, n));
+        sc.close();
     }
 }

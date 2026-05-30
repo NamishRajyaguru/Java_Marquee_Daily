@@ -24,5 +24,6 @@ public class SumOfSameIndexOfTwoArrays{
             arr2[i] = sc.nextInt();
         }
         sumArray(arr1, arr2, n);
+        sc.close();
     }
 }

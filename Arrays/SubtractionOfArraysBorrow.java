@@ -55,5 +55,6 @@ public class SubtractionOfArraysBorrow {
             b[i] = sc.nextInt();
         }
         System.out.println(Arrays.toString(subtract(a, b, n, m)));
+        sc.close();
     }
 }

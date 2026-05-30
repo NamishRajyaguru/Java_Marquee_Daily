@@ -16,5 +16,6 @@ public class EarlyTermination{
         int a = sc.nextInt();
         int b = sc.nextInt();
         add(a, b);
+        sc.close();
     }
 }

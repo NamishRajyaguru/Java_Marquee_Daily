@@ -15,5 +15,6 @@ public class SecondLastDigitEvenOdd{
         int n = sc.nextInt();
 
         System.out.println(lastSecondEvenOrOdd(n));
+        sc.close();
     }
 }

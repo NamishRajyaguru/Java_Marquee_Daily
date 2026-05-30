@@ -21,5 +21,6 @@ public class SumEvenIntegers{
 
         int res = sumEven(start, end);
         System.out.println(res);
+        sc.close();
     }
 }

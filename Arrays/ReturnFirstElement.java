@@ -16,5 +16,6 @@ public class ReturnFirstElement{
             arr[i] = sc.nextInt();
         }
         System.out.println(firstElement(arr));
+        sc.close();
     }
 }

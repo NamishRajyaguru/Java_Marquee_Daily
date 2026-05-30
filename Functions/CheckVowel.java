@@ -18,6 +18,7 @@ public class CheckVowel{
         Scanner sc = new Scanner(System.in);
         char c = sc.next().charAt(0);
         System.out.println(vowel(c));
+        sc.close();
     }
 }
 

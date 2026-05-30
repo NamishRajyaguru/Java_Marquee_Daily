@@ -39,5 +39,6 @@ public class SubtractionOfArrays{
             arr2[i] = sc.nextInt();
         }
         System.out.println(subtraction(arr1, arr2, n, m));
+        sc.close();
     }
 }

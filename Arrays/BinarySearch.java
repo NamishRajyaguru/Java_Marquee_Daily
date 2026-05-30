@@ -50,5 +50,6 @@ public class BinarySearch{
         int target = sc.nextInt();
         System.out.println(binarySearch(arr, target, n));
         System.out.println(binarySearchIndex(arr, target, n));
+        sc.close();
     }
 }

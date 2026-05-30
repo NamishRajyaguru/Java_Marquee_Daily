@@ -12,5 +12,6 @@ public class StringConcat{
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
         greet(name);
+        sc.close();
     }
 }

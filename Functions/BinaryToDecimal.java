@@ -19,5 +19,6 @@ public class BinaryToDecimal {
         Scanner sc = new Scanner(System.in);
         String bin = sc.nextLine();
         System.out.println(binaryToDecimal(bin));
+        sc.close();
     }
 }

@@ -29,5 +29,6 @@ public class ReplaceZeroWithFive{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println(swapZeroWithFive(n));
+        sc.close();
     }
 }

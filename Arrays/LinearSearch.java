@@ -32,5 +32,6 @@ public class LinearSearch{
         int target = sc.nextInt();
         System.out.println(linearSearch(arr, target, n));
         System.out.println(linearSearchIndex(arr, target, n));
+        sc.close();
     }
 }

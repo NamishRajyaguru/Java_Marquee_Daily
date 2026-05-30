@@ -11,6 +11,7 @@ public class SumOfSquareOfDigits{
             n = n / 10;
         }
         System.out.println(res);
+        sc.close();
     }
 }
 

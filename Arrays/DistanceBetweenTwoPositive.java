@@ -41,5 +41,6 @@ public class DistanceBetweenTwoPositive {
             arr[i] = sc.nextInt();
         }
         System.out.println(findDistance(arr));
+        sc.close();
     }
 }

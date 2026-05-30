@@ -23,5 +23,6 @@ public class DecimalToOctal{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         decimalToOctal(n);
+        sc.close();
     }
 }

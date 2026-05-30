@@ -13,6 +13,7 @@ public class MultiplicationTable{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         table(n);
+        sc.close();
     }
 }
 

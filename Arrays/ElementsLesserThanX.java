@@ -23,5 +23,6 @@ public class ElementsLesserThanX{
         }
         int x = sc.nextInt();
         count(arr, x);
+        sc.close();
     }
 }

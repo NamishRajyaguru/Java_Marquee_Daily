@@ -14,6 +14,7 @@ public class FibonacciSeriesSum{
             a = b;
             b = sum;
         }
+        sc.close();
     }
 }
 

@@ -24,5 +24,6 @@ public class DecimalToHexa{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         decimalToHexa(n);
+        sc.close();
     }
 }

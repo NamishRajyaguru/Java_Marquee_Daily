@@ -32,5 +32,6 @@ public class BinaryToOctal {
         Scanner sc = new Scanner(System.in);
         String bin = sc.nextLine();
         System.out.println(merger(bin));
+        sc.close();
     }
 }

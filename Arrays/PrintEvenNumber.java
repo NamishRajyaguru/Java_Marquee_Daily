@@ -17,5 +17,6 @@ public class PrintEvenNumber{
                 System.out.print(arr[i] + " ");
             }
         }
+        sc.close();
     }
 }
